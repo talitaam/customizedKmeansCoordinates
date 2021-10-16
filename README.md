@@ -18,7 +18,7 @@ Trabalho prático para a disciplina Planejamento de Capacidade e Avaliação de 
 
 # Funcionamento:
 
-Entradas: 
+Entrada: 
 - Quantidade de Clusters: variável clusterQty;
 - Definição dos primeiros centróides de cada cluster: variável randomlySelectFirstCentroids
   - por sorteio -> randomlySelectFirstCentroids = true;
