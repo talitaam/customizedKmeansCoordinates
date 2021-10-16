@@ -26,10 +26,11 @@ Entradas:
 - Quantidade máxima de interações: variável maxRounds;
 - Lista de coordenadas: variável data;
 
-Enquanto alguma coordenada trocar de cluster ou o número máximo de iterações não for atingido:
-- calcula da distância entre cada coordenada e o centróide de cada cluster; 
-- inclui a coordenada no cluster cujo centróide estiver mais próximo;
-- recalcula o centróide de cada cluster: para cada coordenada de um centróide, é feita a média das correspondentes coordenadas de todos os elementos do cluster.
+Execução:
+- Enquanto alguma coordenada trocar de cluster ou o número máximo de iterações não for atingido:
+  - calcula da distância entre cada coordenada e o centróide de cada cluster; 
+  - inclui a coordenada no cluster cujo centróide estiver mais próximo;
+  - recalcula o centróide de cada cluster: para cada coordenada de um centróide, é feita a média das correspondentes coordenadas de todos os elementos do cluster.
 
 Saída:
 - Motivo da parada do algoritmo: Número máximo de interações foi atindo ou Não nenhuma coordenada mudou mais de cluster
