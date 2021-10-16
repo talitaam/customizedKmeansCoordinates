@@ -33,6 +33,7 @@ Execução:
   - recalcula o centróide de cada cluster: para cada coordenada de um centróide, é feita a média das correspondentes coordenadas de todos os elementos do cluster.
 
 Saída:
+- Cálculos e mudanças realizadas durante a execução do algoritmo
 - Motivo da parada do algoritmo: Número máximo de interações foi atindo ou Não nenhuma coordenada mudou mais de cluster
   - "------->>> MAXIMUM NUMBER OF ROUNDS REACHED <<<-------"
   - "------->>> THERE WAS NO CHANGE OF CLUSTER. NO MORE ROUNDS NEEDED <<<-------"
