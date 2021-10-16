@@ -38,9 +38,9 @@ Saída:
   - "------->>> THERE WAS NO CHANGE OF CLUSTER. NO MORE ROUNDS NEEDED <<<-------"
 - Total de interações
   - "Total rounds:"
-- Informação final de cada coordenada: ID, eixo X, eixo Y e o número do cluster a quer pertence
+- Informação final de cada coordenada: ID, eixo X, eixo Y e o número do cluster a que pertence
   - "Coordinate [id=, X=, Y=, cluster=]"
-- Informação final de cada cluster: valor final dos centróides e o id das coordenadas que pertence a ele
+- Informação final de cada cluster: valor final dos centróides e o id das coordenadas que pertencem a ele
   - "Key = Cluster [Xc=, Yc=, cluster=], Value = [Coordinate [id=], Coordinate [id=], Coordinate [id=]]"
 
 
