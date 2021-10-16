@@ -5,6 +5,17 @@ Algoritmo Kmeans em Java que clusteriza coordenadas bidimensionais (eixo X e Y).
 
 Trabalho prático para a disciplina Planejamento de Capacidade e Avaliação de Sistemas Computacionais do Bacharelado em Engenharia de Software da Pontifícia Universidade Católica de Minas Gerais - PUC Minas.
 
+# Composição:
+
+- ## Alunos:
+  - Ariel Santos Barcelos
+  - Ezequiel de Carvalho Santos
+  - Karolina Vaz Coelho
+  - Talita Arantes Melo
+
+- ## Professores:
+  - Claudio Correa
+
 # Funcionamento:
 
 Entradas: 
@@ -21,7 +32,6 @@ Enquanto alguma coordenada trocar de cluster ou o número máximo de iterações
 - recalcula o centróide de cada cluster: para cada coordenada de um centróide, é feita a média das correspondentes coordenadas de todos os elementos do cluster.
 
 Saída:
-
 - Motivo da parada do algoritmo: Número máximo de interações foi atindo ou Não nenhuma coordenada mudou mais de cluster
   - "------->>> MAXIMUM NUMBER OF ROUNDS REACHED <<<-------"
   - "------->>> THERE WAS NO CHANGE OF CLUSTER. NO MORE ROUNDS NEEDED <<<-------"
@@ -33,13 +43,3 @@ Saída:
   - "Key = Cluster [Xc=, Yc=, cluster=], Value = [Coordinate [id=], Coordinate [id=], Coordinate [id=]]"
 
 
-# Composição:
-
-- ## Alunos:
-  - Ariel Santos Barcelos
-  - Ezequiel de Carvalho Santos
-  - Karolina Vaz Coelho
-  - Talita Arantes Melo
-
-- ## Professores:
-  - Claudio Correa
